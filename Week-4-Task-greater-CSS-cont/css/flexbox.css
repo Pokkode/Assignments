@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #EBE7E7;
+}
+
+h1,
+p {
+    color: white;
+    padding: 0 25px;
+}
+
+h1 {
+    margin-top: 200px 0 -180px;
+}
+
+p {
+    font-size: small;
+    margin: 220px 0 -200px;
+}
+
+img {
+  margin: 50px 0 -140px;
+  padding: 0 25px;
+}
+
+#gallery {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.cards {
+    width: 30%;
+    height: 500px;
+}
+
+.orange {
+    background: orange;
+}
+
+.blue {
+    background: skyblue;
+}
+
+.green {
+    background: green;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    padding: 8px 15px;
+    margin: 300px 25px 0;
+}
+
+.sedans {
+    color: orange;
+}
+
+.suvs {
+    color: skyblue;
+}
+
+.luxury {
+    color: green;
+}
+
+
+@media (max-width: 680px) {
+    .cards {
+        width: 100%;
+    }
+
+    #gallery {
+        margin-left: 30px;
+    }
+}
